@@ -1,6 +1,9 @@
-name: Python package
+name: check_syntax
 
-on: [push]
+on:
+  push:
+    branches:
+      - check_syntax
 
 jobs:
   build:
