@@ -1,6 +1,9 @@
-name: Python package
+name: check_python_version
 
-on: [push]
+on:
+  push:
+    branches:
+      - check_python_version
 
 jobs:
   build:
